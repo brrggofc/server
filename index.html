@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="test-title">Testing</h1>
+        <div id="user-info">
+            <p>Name: <span id="username-display"></span></p>
+            <p>Email: <span id="email-display"></span></p>
+        </div>
+        <div id="question-selector" class="question-selector"></div>
+        <div id="question-block" class="question-block">
+            <p id="question"></p>
+            <div id="options"></div>
+            <div id="svg-container"></div>
+            
+            <button id="next-button">Next Question</button>
+            <button id="finish-button">Finish Test</button>
+            <button id="repeat-button" style="display:none;">Retake Test</button>
+        </div>
+        <div id="result"></div>
+        <div id="history"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
